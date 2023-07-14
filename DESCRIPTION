@@ -1,0 +1,18 @@
+Package: CNVAnalisis
+Type: Package
+Title: Detection of variations (duplications or deletions) in the number of 
+copies of the DNA by applying the CNV (Copy Number Variation) technique.
+Version: 0.1.0
+Author: Elmer Fernandez, Daniela Orschanski
+Maintainer: daniorsch@gmail.com
+Description: This package will compare the sequenced genome of a patient against
+"normal" patients, used as references (predefined by doctors), in order to estimate 
+the probability that a certain region of the patient's exome presents some 
+alteration. 
+It uses the ExomeDepth algorithm.
+The user will have to provide a file with the sequenced information and he/she 
+will get the results in return in an excel format which will include a 
+visualization of the results.
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
